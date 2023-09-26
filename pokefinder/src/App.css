@@ -3,13 +3,19 @@
 }
 
 .Header {
-  background-color: #282c34;
-  padding-top: 1px;
+  background: linear-gradient(180deg, black, #1E001E);
+  padding-top: 6vh;
+  padding-bottom: 8ch;
   color: white;
+  font-size: 3vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .Front {
-  background-color: #282c34;
+  background: linear-gradient(180deg, #1E001E, #460046);
   min-height: 100vh;
   display: flex;
   flex-direction: column;

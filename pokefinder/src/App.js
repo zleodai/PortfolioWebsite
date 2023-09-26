@@ -4,8 +4,13 @@ function App() {
   return (
     <div className="App">
       <header className = "Header">
-        This is the header
-        </header>
+        <div id = "headerName">
+          Leo Dai
+        </div>
+        <div id = "contactIcons">
+          A, B, C, D
+        </div>
+      </header>
       <div className="Front">
         <p id="testAnimation">
           this should spin
