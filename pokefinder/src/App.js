@@ -1,12 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      <header className = "Header">
+        This is the header
+        </header>
+      <div className="Front">
+        <p id="testAnimation">
+          this should spin
+        </p>
+      </div>
     </div>
   );
 }

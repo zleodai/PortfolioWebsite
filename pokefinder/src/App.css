@@ -2,18 +2,13 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Header {
+  background-color: #282c34;
+  padding-top: 1px;
+  color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.Front {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,11 +19,11 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#testAnimation {
+  animation: testAnimation infinite 2s linear;
 }
 
-@keyframes App-logo-spin {
+@keyframes testAnimation {
   from {
     transform: rotate(0deg);
   }
@@ -36,3 +31,22 @@
     transform: rotate(360deg);
   }
 }
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+Code that basically creates an animation for media.
+Example code for usage:
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+Note: @media is not required but it is used for some reason
+*/
