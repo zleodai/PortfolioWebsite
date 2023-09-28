@@ -135,6 +135,10 @@
   .Education #buttonContainer{
     flex: 4;
   }
+
+  .EducationButton{
+    font-size: 2.5vh;
+  }
 }
 
 
@@ -267,12 +271,15 @@
     flex: 3;
     align-self: center;
   }
+
+  .EducationButton{
+    font-size: 2vw;
+  }
 }
 
 
 
 .EducationButton {
-  font-size: 2rem;
   font-family: "Rajdhani";
   font-weight: 200;
   display: inline-block;
@@ -280,12 +287,12 @@
   transition: background-color 0.2s ease-out;
   cursor: pointer;
   color: var(--clr-neon);
-  border: var(--clr-neon) 0.01em solid;
+  border: var(--clr-neon) 0.05em solid;
   border-radius: 0.25em;
 
-  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.125em currentColor;
+  /* text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.125em currentColor; */
 
-  box-shadow: inset 0 0 0.15em 0 var(--clr-neon), 0 0 0.15em 0 var(--clr-neon);
+  /* box-shadow: inset 0 0 0.15em 0 var(--clr-neon), 0 0 0.15em 0 var(--clr-neon); */
 }
 
 .EducationButton:hover {
