@@ -11,14 +11,11 @@ function App() {
           <button className = "Buttons" id = "education">
             Education
           </button>
-          <button className = "Buttons" id = "projects">
-            Projects
-          </button>
           <button className = "Buttons" id = "experience">
-            Work Experience
-          </button>
-          <button className = "Buttons" id = "skills">
-            Skills
+            Experience
+          </button> 
+          <button className = "Buttons" id = "projects">
+            Projects  
           </button>
           <button className = "Buttons" id = "resume">
             Resume
@@ -29,47 +26,53 @@ function App() {
         </div>
       </header>
       <div className="Front">
+        <div className = "EducationBanner">
+          <div className = "Padding" id = "topPadding"></div>
+          <div id = "content">
+            Education
+          </div>
+          <div className = "Padding" id = "bottomPadding"></div>
+        </div>
         <div className = "Education">
+          <div className = "Padding" id = "educationAPadding"></div>
+          
           <img src = {require('./media/lmuPicture.jpg')} id = "lmuPicture" alt = "LMU Photo"/>
+
           <div className = "TextContainer">
             <div id = "info">
-              Loyola Marymount University, <a href="https://www.lmu.edu/">lmu.edu</a>
+              Loyola Marymount University 
             </div>
             <div id = "relevance">
-              Currently pursuing an undergraduate degree in computer science
+              Located at 1 Loyola Marymount University Dr, Los Angeles, CA 90045
             </div>
             <div id = "relevance1">
-              Graduating 2025 June
+              I am currently studying at the College of Science and Engineering. I will be graduating in 2025 with an Undergraduate in Computer Science. I also intend on going for a Masters in Computer Science.
             </div>
-            <div id = "coursesHeader">
-                Courses taken:
-              </div>
-            <div className = "Courses">
-              <div id = "0">Data Structures and Applications</div>
-              <div id = "1">Algorithmns and Analysis</div>
-              <div id = "2">Data Science</div>
-              <div id = "3">Game Design</div>
-              <div id = "4">Web App Development</div>
-              <div id = "5">Artificial Intelligence</div>
-              <div id = "6">Computer Systems Organization</div>
-              <div id = "7">Game Development</div>
+            <div id = "buttonContainer">
+              <button class="educationButton">
+                <h2>LMU Website</h2>
+                <h3>Check out their website</h3>
+              </button>
             </div>
           </div>
-        </div>
-        <div className = "Projects">
-    
+          <div className = "Padding" id = "educationBPadding"></div>
+
+
         </div>
         <div className = "Experience">
-
+          Experience Placeholder
+        </div>
+        <div className = "Projects">
+          Projects Placeholder
         </div>
         <div className = "Skills">
-
+          Skills Placeholder
         </div>
         <div className = "Resume">
-
+          Resume Placeholder
         </div>
         <div className = "Contact">
-
+          Contact Placeholder
         </div>
       </div>
     </div>
