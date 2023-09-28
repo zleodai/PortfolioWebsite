@@ -49,9 +49,8 @@ function App() {
               I am currently studying at the College of Science and Engineering. I will be graduating in 2025 with an Undergraduate in Computer Science. I also intend on going for a Masters in Computer Science.
             </div>
             <div id = "buttonContainer">
-              <button class="educationButton">
-                <h2>LMU Website</h2>
-                <h3>Check out their website</h3>
+              <button class="EducationButton">
+                LMU Website
               </button>
             </div>
           </div>
