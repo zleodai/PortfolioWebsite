@@ -49,17 +49,27 @@ function App() {
               I am currently studying at the College of Science and Engineering. I will be graduating in 2025 with an Undergraduate in Computer Science. I also intend on going for a Masters in Computer Science.
             </div>
             <div id = "buttonContainer">
-              <button class="EducationButton">
-                LMU Website
-              </button>
+              <a href = "https://lmu.edu">
+                <button class="EducationButton">
+                  LMU Website
+                </button>
+              </a>
             </div>
           </div>
           <div className = "Padding" id = "educationBPadding"></div>
 
 
         </div>
+        <div className = "ExperienceBanner">
+          <div className = "Sides" id = "leftContent"></div>
+            <div id = "content">
+              Work Experience
+            </div>
+          <div className = "Sides" id = "rightContent"></div>
+        </div>
         <div className = "Experience">
-          Experience Placeholder
+          <div id = "info"> 
+          </div>
         </div>
         <div className = "Projects">
           Projects Placeholder
