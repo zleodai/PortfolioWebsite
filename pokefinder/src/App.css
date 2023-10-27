@@ -40,6 +40,7 @@
     align-items: center;
     padding-top: 1vh;
     padding-right: 5vw;
+    gap: 2vw;
   }
 
   .Buttons{
@@ -47,6 +48,7 @@
     border: none;
     background-color: transparent;
     color: white;
+    text-decoration: none;
   }
 
 
@@ -397,7 +399,7 @@
     letter-spacing: 4px;
     font-weight: 300;
     text-transform: uppercase;
-    padding-bottom: 5h;
+    padding-bottom: 5vh;
     padding-top: 1vh;
   }
 
@@ -744,7 +746,7 @@
     display: flex;
     flex-direction: row;
     width: 80vw;
-    gap: 3vw;
+    gap: 1vw;
   }
 
   .Projects .TimelineItems .Date {

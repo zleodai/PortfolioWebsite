@@ -66,13 +66,13 @@ function App() {
             <div id = "logo">
               <img src = {require('./media/targetIcon.png')} id = "icon" alt = "Target Logo"/>
             </div>
-            <div id = "company">Target</div>
+            <div id = "company">Target Inc.</div>
             <div id = "title">General Merchandise Expert</div>
             <div id = "date">October 2021 - Present</div>
           </div>
           <div className = "Content">
             <div id = "content">
-              I worked at target part time average around 24-32 hours a week ever since October of 2021. At target I provided customer service to all guests and managed my departmenmt of the store making sure it was nice and tidy. Working at Target helped with me gain familiarity with deadlines and daily workloads.  
+              I worked at Target part time average around 24-32 hours a week ever since October of 2021. At Target I provided customer service to all guests and managed my departmenmt of the store making sure it was nice and tidy. Working at Target helped with me gain familiarity with deadlines and daily workloads.  
             </div>
           </div>
         </div>
@@ -85,8 +85,9 @@ function App() {
           <div className = "Timeline">
             <div className = "TimelineDates">
               <div id = "date" className = "Date">Mar. 2023</div>
-              <div id = "date1" className = "Date">Apr. 2023</div>
-              <div id = "date2" className = "Date">Sep. 2023</div>
+              <div id = "date" className = "Date">April 2023</div>
+              <div id = "date1" className = "Date">Sep. 2023</div>
+              <div id = "date2" className = "Date">Oct. 2023</div>
               <div id = "date3" className = "Date">Oct. 2023</div>
             </div>
             <div id = "timelineImageContainer">
@@ -103,11 +104,11 @@ function App() {
                 </div>
               </div>
               <div id = "item1" className = "Item">
-                <div className = "Title">Rio de Janeiro Favela Finder</div>
-                <div className = "Content">Worked in a team to filter through Twitter data and while used sklearn's clustering algorithmn to determine high-density areas not classified as official districts. These were then deduced as Favelas.</div>
+                <div className = "Title">Favela Finder</div>
+                <div className = "Content">Worked in a team filtering through Twitter data and using sklearn’s clustering algorithm to determine high-density areas not classified as official districts. These we deduced were locations of favelas.</div>
                 <div className = "ButtonContainer">
                   <a href = "https://drive.google.com/drive/folders/1L8iaPA8LyPI0Yr3DKDhDhuEtRCwJ5hwa?usp=sharing">
-                    <button className = "ProjectsButton" id = "item1">Download Link</button>
+                    <button className = "ProjectsButton" id = "item">Download Link</button>
                   </a>
                 </div>
               </div>
@@ -126,6 +127,15 @@ function App() {
                 <div className = "ButtonContainer">
                   <a href = "https://drive.google.com/drive/folders/1_2ril9-TEG73IRGjJu2kc_ICDxMygFjN?usp=sharing">
                     <button className = "ProjectsButton" id = "item3">Download Link</button>
+                  </a>
+                </div>
+              </div>
+              <div id = "item4" className = "Item">
+                <div className = "Title">Attack on Titan FanGame</div>
+                <div className = "Content">Made a game with grappling hook physics and also in air movement physics using the Unity game engine and c# scripts.</div>
+                <div className = "ButtonContainer">
+                  <a href = "https://zleodai.itch.io/odm-grapple-game">
+                    <button className = "ProjectsButton" id = "item1">Itch.io Link</button>
                   </a>
                 </div>
               </div>
